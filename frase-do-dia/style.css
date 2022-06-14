@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:aliceblue;
+}
+
+.wrapper{
+    width: 355px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 15px 15px;
+}
+
+span {
+    color:#ccc;
+}
+
+.wrapper header {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrapper .content {
+    margin: 35px 0;
+}
+
+.content .quote-area {
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote-area i {
+    font-size: 15px;
+}
+
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.quote-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+.quote-area .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+    padding: 15px;
+}
+
+.wrapper .button{
+    border-top: 1px solid #ccc;
+
+}
+
+.button .features{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features ul{
+    display: flex;
+
+}
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid red;
+    color: red;
+    cursor: pointer;
+    
+}
+
+.features ul li:hover{
+    color: #fff;
+    background-color: red;
+}
+
+.features button{
+    border: none;
+    outline: none;
+    background-color: red;
+    border-radius: 30px;
+    cursor: pointer;
+    font-style: 16px;
+    padding: 13px 22px;
+    color: #fff;
+    
+
+
+
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+   
+    
+}
+
+
+@media only screen and(max-width: 600px){
+    body {
+        background-color: red;
+    }
+    
+}

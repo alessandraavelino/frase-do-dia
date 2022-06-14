@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Frase do dia</title>
+    <meta property="og:Frase_do_Dia" content="Frase do Dia">
+    <meta property="og:title" content="Frase do Dia">
+    <meta property="og:description" content="Veja qual a sua frase do dia">
+    <meta property="og:type" content="website">
+    
+</head>
+<body>
+    <div class="conteudo">
+        <div class="wrapper">
+            <header class="saudacao" id="saudacao">Frase do dia!</header>
+            <div class="content"> 
+                <div class="quote-area">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="quote" id="quote"></p>
+                    <i onclick="share()"class="fas fa-quote-right"></i>
+                </div>
+                
+            </div>
+            <div class="button">
+                <br><br>
+                <div class="features">
+    
+                    <ul>
+                        <li class="sound" id="sound"><i class="fas fa-volume-up"></i></li>
+                        
+                        
+                        <li class="share" id="share"><i class="fas fa-share"></i></li>
+                        
+                    </ul>
+                    
+                    <button onclick="gerarFrases()" method="get">Nova Frase</button>
+                </div>
+                <br>
+                <span><em>compartilhe com amigos</em></span>
+            </div>
+            
+            
+            
+        </div>
+    
+        <footer>v1.0</footer>
+
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
